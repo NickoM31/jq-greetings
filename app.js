@@ -5,13 +5,11 @@ $("button").click(function(){
 		prenom : $("#first_name").val(),
 		nom : $("#last_name").val(),
 
-
 	};
 
 	console.log(obj);	
 
 	$("#username").text(obj.prenom + " " + obj.nom);
-
 
 });
 
