@@ -4,12 +4,11 @@ $("button").click(function(){
 
 		prenom : $("#first_name").val(),
 		nom : $("#last_name").val(),
-
+		ville : $("#city").val(),
 	};
-
 	console.log(obj);	
-
-	$("#username").text(obj.prenom + " " + obj.nom);
+	$("#username").text("Bonjour" + " " + obj.prenom + " " + obj.nom + ", " + 
+		"tu habites" + " " + obj.ville + ".");
 
 });
 
